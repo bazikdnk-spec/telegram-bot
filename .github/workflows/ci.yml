@@ -165,7 +165,6 @@ jobs:
     if: github.ref == 'refs/heads/main'
     environment:
       name: production
-      url: ${{ secrets.PROD_URL }}
     steps:
       - uses: actions/checkout@v4
       - name: Deploy to production via SSH
