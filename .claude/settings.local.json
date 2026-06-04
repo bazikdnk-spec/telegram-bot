@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd \"c:\\\\Users\\\\User\\\\Desktop\\\\background-animation-website\"; .\\\\venv\\\\Scripts\\\\python.exe generate_report.py; Write-Host \"Exit: $LASTEXITCODE\")"
+    ]
+  }
+}

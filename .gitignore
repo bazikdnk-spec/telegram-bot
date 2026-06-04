@@ -1,0 +1,33 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+google_credentials.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.coverage
+coverage.xml
+.hypothesis/
+.pytest_cache/
+
+# Database & logs
+bot.db
+bot.log
+*.sqlite3
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
